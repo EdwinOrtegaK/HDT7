@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4968d834-f336-4222-8f9f-6fbd079c62c5" name="Changes" comment="Programa completo con JavaDoc">
-      <change afterPath="$PROJECT_DIR$/src/BSTMapTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HDT7.iml" beforeDir="false" afterPath="$PROJECT_DIR$/HDT7.iml" afterDir="false" />
+    <list default="true" id="4968d834-f336-4222-8f9f-6fbd079c62c5" name="Changes" comment="JUnits">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +85,7 @@
       <option name="presentableId" value="Default" />
       <updated>1679677488346</updated>
       <workItem from="1679677490475" duration="4228000" />
-      <workItem from="1679768769955" duration="15224000" />
+      <workItem from="1679768769955" duration="15532000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <created>1679783224345</created>
@@ -117,7 +115,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679785876371</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="JUnits">
+      <created>1679787126703</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1679787126703</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -139,6 +144,7 @@
     <MESSAGE value="Second Commit" />
     <MESSAGE value="Main a medias" />
     <MESSAGE value="Programa completo con JavaDoc" />
-    <option name="LAST_COMMIT_MESSAGE" value="Programa completo con JavaDoc" />
+    <MESSAGE value="JUnits" />
+    <option name="LAST_COMMIT_MESSAGE" value="JUnits" />
   </component>
 </project>
