@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4968d834-f336-4222-8f9f-6fbd079c62c5" name="Changes" comment="Main a medias">
-      <change afterPath="$PROJECT_DIR$/texto.txt" afterDir="false" />
+    <list default="true" id="4968d834-f336-4222-8f9f-6fbd079c62c5" name="Changes" comment="Programa completo con JavaDoc">
+      <change afterPath="$PROJECT_DIR$/src/BSTMapTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BSTMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BSTMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Reader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Reader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HDT7.iml" beforeDir="false" afterPath="$PROJECT_DIR$/HDT7.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +18,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -37,9 +36,16 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "create.test.in.the.same.root": "true",
     "last_opened_file_path": "C:/Users/andyo/OneDrive/Escritorio/UVG/3er Semestre/Estructura de Datos/HDT6",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -50,6 +56,12 @@
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\andyo\OneDrive\Escritorio\UVG\3er Semestre\Estructura de Datos\HDT7" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="" />
     </key>
   </component>
   <component name="RunManager">
@@ -75,7 +87,7 @@
       <option name="presentableId" value="Default" />
       <updated>1679677488346</updated>
       <workItem from="1679677490475" duration="4228000" />
-      <workItem from="1679768769955" duration="14077000" />
+      <workItem from="1679768769955" duration="15224000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <created>1679783224345</created>
@@ -98,7 +110,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679783293627</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Programa completo con JavaDoc">
+      <created>1679785876371</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1679785876371</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -119,6 +138,7 @@
     <MESSAGE value="First Commit" />
     <MESSAGE value="Second Commit" />
     <MESSAGE value="Main a medias" />
-    <option name="LAST_COMMIT_MESSAGE" value="Main a medias" />
+    <MESSAGE value="Programa completo con JavaDoc" />
+    <option name="LAST_COMMIT_MESSAGE" value="Programa completo con JavaDoc" />
   </component>
 </project>

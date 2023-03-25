@@ -63,7 +63,7 @@ public class BSTMap {
      * @param key
      * @return
      */
-    private TreeNode getHelper(TreeNode node, String key) {
+    public TreeNode getHelper(TreeNode node, String key) {
         if (node == null) {
             return null;
         }
