@@ -4,6 +4,11 @@ public class TreeNode {
     public TreeNode left;
     public TreeNode right;
 
+    /**
+     * Clase de arbol binario
+     * @param key
+     * @param value
+     */
     public TreeNode(String key, String value) {
         this.key = key;
         this.value = value;

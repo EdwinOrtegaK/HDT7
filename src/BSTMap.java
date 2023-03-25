@@ -3,16 +3,32 @@ import java.io.FileReader;
 import java.io.IOException;
 
 public class BSTMap {
+    public TreeNode getRoot() {
+        return root;
+    }
+
     private TreeNode root;
 
     public BSTMap() {
         this.root = null;
     }
 
+    /**
+     * Agrega una nueva palabra al diccionario
+     * @param key
+     * @param value
+     */
     public void insert(String key, String value) {
         this.root = insertHelper(this.root, key, value);
     }
 
+    /**
+     * Ayuda a agregar una nueva palabra al diccionario
+     * @param node
+     * @param key
+     * @param value
+     * @return
+     */
     private TreeNode insertHelper(TreeNode node, String key, String value) {
         if (node == null) {
             return new TreeNode(key, value);
@@ -27,15 +43,26 @@ public class BSTMap {
         return node;
     }
 
+    /**
+     * Traduce las palabras
+     * @param key
+     * @return
+     */
     public String get(String key) {
         TreeNode node = getHelper(this.root, key);
         if (node != null) {
             return node.value;
         } else {
-            return null;
+            return "*"+key+"*";
         }
     }
 
+    /**
+     * Ayuda a traducir las palabras
+     * @param node
+     * @param key
+     * @return
+     */
     private TreeNode getHelper(TreeNode node, String key) {
         if (node == null) {
             return null;
@@ -49,40 +76,11 @@ public class BSTMap {
         }
     }
 
-    public void remove(String key) {
-        this.root = removeHelper(this.root, key);
-    }
-
-    private TreeNode removeHelper(TreeNode node, String key) {
-        if (node == null) {
-            return null;
-        }
-        if (key.compareTo(node.key) < 0) {
-            node.left = removeHelper(node.left, key);
-        } else if (key.compareTo(node.key) > 0) {
-            node.right = removeHelper(node.right, key);
-        } else {
-            if (node.left == null) {
-                return node.right;
-            } else if (node.right == null) {
-                return node.left;
-            } else {
-                TreeNode successor = findMin(node.right);
-                node.key = successor.key;
-                node.value = successor.value;
-                node.right = removeHelper(node.right, successor.key);
-            }
-        }
-        return node;
-    }
-
-    private TreeNode findMin(TreeNode node) {
-        while (node.left != null) {
-            node = node.left;
-        }
-        return node;
-    }
-
+    /**
+     * Lee el archivo que contiene las palabaras y su tarduccion
+     * @param rutaArchivo
+     * @param param
+     */
     public void readFile(String rutaArchivo, int param) {
 
         try (BufferedReader br = new BufferedReader(new FileReader(rutaArchivo))) {
@@ -111,6 +109,17 @@ public class BSTMap {
         } catch (IOException e) {
             return;
         }
+    }
 
+    /**
+     * Ayuda a ordenar
+     * @param node
+     */
+    public void printInOr(TreeNode node) {
+        if (node != null) {
+            printInOr(node.left);
+            System.out.print("(" + node.key + ", " + node.value + ") ");
+            printInOr(node.right);
+        }
     }
 }
